@@ -20,4 +20,5 @@ echo "Collecting static files..."
 $ENV_PATH/bin/python manage.py collectstatic --noinput
 
 echo "Restarting Supervisor process..."
-supervisorctl restart profiles_api_
+supervisorctl restart profiles_api
+
