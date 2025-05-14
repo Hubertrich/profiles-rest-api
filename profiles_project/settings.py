@@ -125,3 +125,6 @@ STATIC_URL = '/static/'
 AUTH_USER_MODEL = 'profiles_api.UserProfile'
 
 STATIC_ROOT = 'static/'
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
