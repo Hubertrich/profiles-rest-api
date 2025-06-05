@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'profiles_api',
+    'excel_upload_feature',
 ]
 
 MIDDLEWARE = [
